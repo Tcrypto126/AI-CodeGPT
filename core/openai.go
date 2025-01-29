@@ -10,6 +10,7 @@ import (
 // It includes the number of tokens used for the prompt, the completion,
 // and the total tokens used. Additionally, it may include detailed
 // information about the completion tokens.
+
 type Usage struct {
 	PromptTokens            int
 	CompletionTokens        int

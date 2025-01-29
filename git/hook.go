@@ -15,6 +15,7 @@ const (
 	CommitMessageTemplate            = "commit-msg.tmpl"
 )
 
+
 func init() { //nolint:gochecknoinits
 	if err := util.LoadTemplates(files); err != nil {
 		log.Fatal(err)

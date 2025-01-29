@@ -34,6 +34,7 @@ func TestConvertHeaders(t *testing.T) {
 		},
 	}
 
+	
 	for _, tc := range testCases {
 		result := convertHeaders(tc.headers)
 		if !reflect.DeepEqual(result, tc.expected) {
