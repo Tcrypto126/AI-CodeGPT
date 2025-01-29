@@ -8,7 +8,7 @@ require (
 	github.com/appleboy/com v0.2.1
 	github.com/appleboy/graceful v1.1.1
 	github.com/charmbracelet/bubbles v0.20.0
-	github.com/charmbracelet/bubbletea v1.2.1
+	github.com/charmbracelet/bubbletea v1.2.4
 	github.com/erikgeiser/promptkit v0.9.0
 	github.com/fatih/color v1.18.0
 	github.com/google/generative-ai-go v0.18.0
